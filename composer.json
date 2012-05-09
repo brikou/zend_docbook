@@ -1,0 +1,26 @@
+{
+    "name": "brikou/zend_docbook",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Docbook Library",
+    "keywords": [
+        "zend framework",
+        "docbook"
+    ],
+    "homepage": "https://github.com/brikou/zend_docbook",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_code": "*",
+        "brikou/zend_filter": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Docbook": "" }
+    }
+}
